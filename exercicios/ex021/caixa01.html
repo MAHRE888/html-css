@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo de caixas</title>
+  <style>
+    h1 {
+      background-color: rgb(156, 75, 233);
+      height: 300px;
+      width: 300px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: rgb(89, 0, 255);
+
+      border: 10px solid rgb(89, 0, 255);
+
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      padding: 20px;
+
+      margin-top: 40px;
+      /*parte de cima externa */
+      margin-right: 10px;
+      /* direita */
+      margin-left: 10px;
+      /* esquerda */
+      margin-bottom: 40px;
+      /* baixo */
+      /*padding é meio que espaçados  */
+      /* margin-auto CENTRALIZA A CAIXA NO MEIO DA PÁG */
+
+      margin: 40px 10px 10px 40px;
+
+      outline-width: 5px;
+      outline-style: dashed;
+      outline-color: rgb(255, 0, 255);
+
+      outline: 5px dashed rgb(255, 0, 255);
+
+      /* outline cria uma linha no caso como coloquei pontilhado "dentro" da margin*/
+
+    }
+
+    a {
+      border-width: 10px;
+      border-style: solid;
+      border-color: blue;
+
+      border: 10px solid blue;
+
+      padding-top: 10px;
+      /* colocar os peddin-top ou margin top sempre em primeiro, depois vem os right e os left */
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+
+      padding: 10px;
+
+      /* SIMPLIFICANDO: 
+       border 10px solid cor
+       peddin 10px 10px 10px 10px  
+       se todas forem o mesmo valor como 10 px podemos fazer: 
+       peddin: 10px
+       
+       ele começa nessa ordem:
+       cima
+       baixo
+       direita
+       esquerda*/
+
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Exemplo de caixa box-level</h1>
+  <p>Parágrafos também são um exemplo de box-level porém os <a href="links"> links são um exemplo de inline-level </a> Vamos ver como tudo isso funciona</p>
+
+</body>
+
+</html>

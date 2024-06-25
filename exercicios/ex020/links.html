@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            font-weight: bold; /* coloca em negrito */
+        }
+
+        a{
+            color: blueviolet;
+            text-decoration: none;
+            
+        }
+        a:visited {
+            color: rgb(255, 0, 43);
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        a:active {
+            color: aqua; /* Quando o link for clicado vai aparecer essa cor selecionada*/
+        }
+        a::before {
+            content: '☇';
+            color: black;
+        }
+        a::after {
+            content: '[❀]';  /* Quer dizer que depois do titulo vai aparecer a informação de que é um link sem afetar nada */
+            text-decoration: none;  /* tira o sublinhado */
+            font-weight: normal;
+            color: rgb(255, 0, 43); /* aqui é a cor da escrita */ 
+        }
+        .especial {
+            background-color: blue;
+        
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/MAHRE888" class="especial" target="_blank" rel="external">Meu GitHub</a></li>
+        <li><a href="https://www.youtube.com/watch?v=rzhZkihJ6no" target="_blank" rel="external">Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank" rel="external">CursoEmVideo</a></li>
+    </ul>
+
+    
+</body>
+</html>

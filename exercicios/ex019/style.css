@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* Em HTML é ID em Css é # ( só pode um id por documento ou seja por página)*/
+
+/* Em HTML é Class em Css é . (Pode usar várias Classes)*/
+body {
+    background-color: rgb(121, 121, 238);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h2 {
+    color: rgb(106, 13, 194);
+}
+
+h1#principal {
+    color: black;
+    text-align: center;
+    background-color: aliceblue;
+} 
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+}
+
+.basico {
+    color: rgb(255, 0, 0);
+}
+
+.intermediario {
+    color: chartreuse;
+}
+
+.avancado {
+    color: blue;
+}
+
+.destaque {
+    background-color: aqua;
+}

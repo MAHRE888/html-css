@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes e/ou diminua e aumente a tela</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexivel"> <!--aqui faz com que as imagens se adapitem ao tamanho da tela.-->
+    </picture>
+
+    <h2>Colocando audios</h2>
+
+    <p>agora vamos aprender como colocar audio no nosso site, muito importante lembrar que arquivos de audios com maior qualidade, também pesam o site!</p>
+    <audio src="midia/musica.mp3" controls autoplay></audio> <!--primeira forma de por audio-->
+
+    <h2>Segunda forma mais compativel</h2>
+    <audio preload="metadata"controls>
+        <source src="midia/musica-2.mp3" type="audio/mpeg">
+        <source src="midia/musica-2.ogg" type="audio/ogg">
+        <source src="midia/musica-2.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir audio. <a href="midia/musica-2.mp3">Clique aqui baicar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>
