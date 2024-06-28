@@ -4,20 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Fundo Fixo de tela</title>
   <style>
     body {
       height: 100vh;
+      /* background-color: black;
       background-image: url(imagens/wallpaper002.jpg);
       background-position: center center;
-      background-repeat: repeat-y;
+      background-repeat: no-repeat;
+       ele vai continuar a imagem em baaixo
       background-size: cover;
-      background-color: black;
+      vai cobrir a tela com a imagem por mais que corte dependendo do tamanho da tela
+      background-attachment: fixed;
+      a imagem fica parada
+      */
+
+      background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+      background-size: cover;
     }
 
     main {
       background-color: white;
-      width: 400px;
+      max-width: 400px;
       padding: 15px;
       margin: auto;
       border-radius: 15px;
