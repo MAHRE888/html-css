@@ -6,14 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    #containder {
-      height: 200px;
+    section#containder {
+      position: relative;
+      background-image: url(imagens/alvo.png);
+      background-size: 100% 100%;
+      height: 85vh;
+      padding: 50px;
       background-color: purple;
     }
 
-    #conteudo {
-      height: 100px;
+    article#conteudo {
+      position: absolute;
+      width: 400px;
+      height: 200px;
       background-color: yellow;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
     }
   </style>
 </head>
