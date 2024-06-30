@@ -4,21 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Alinhando conteudo no containder</title>
   <style>
     section#containder {
       position: relative;
+      /*Por padrão ele ja vem absolute!*/
       background-image: url(imagens/alvo.png);
       background-size: 100% 100%;
+      /*tamanho  da imagem de fundo*/
       height: 85vh;
       padding: 50px;
+      /*preenchimento*/
       background-color: purple;
     }
 
     article#conteudo {
       position: absolute;
+      /*obrigatorio lef e top so funciona se houver position absolute!*/
       width: 400px;
       height: 200px;
+      padding: 30px;
+      padding-bottom: -10px;
       background-color: yellow;
       left: 50%;
       top: 50%;
@@ -30,7 +36,8 @@
 <body>
   <section id="containder">
     <article id="conteudo">
-
+      <h1>Centralizando verticalmente</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium vero iste ea pariatur et expedita quae temporibus qui iure. Dignissimos libero accusamus sapiente soluta doloremque harum repudiandae dolores! Veniam, recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur numquam cupiditate facere totam? Ratione aut impedit mollitia nostrum distinctio ad! Voluptatibus cumque ab repellat a tempora omnis laudantium obcaecati perferendis?</p>
     </article>
   </section>
 
