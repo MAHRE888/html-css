@@ -11,21 +11,13 @@ header {
   color: white;
   padding: 40px;
 }
-header a {
-  color: white;
-  text-decoration: none;
-}
-header a:hover {
-  text-decoration: underline;
-  color: rgb(0, 140, 255);
-}
-a:hover {
-  text-decoration: underline;
-  color: aqua;
-}
 a {
   color: white;
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
 }
 footer {
   background-color: black;
@@ -39,17 +31,33 @@ article {
 }
 h1 {
   margin-bottom: 20px;
+  font-variant: small-caps;
   font-family: "Paytone One", sans-serif;
   font-weight: none;
   font-size: 10vh;
   text-shadow: 1px 1px 1px black;
 }
 h2 {
+  font-variant: small-caps;
   font-size: 55px;
   padding: 10px;
 }
 section {
-  padding: 20px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
+  line-height: 2em;
   font-family: "Recursivo";
   font-size: x-large;
+}
+section.normal {
+  background-color: rgb(255, 255, 255);
+}
+section.imagem {
+  background-color: rgb(82, 80, 80);
+}
+section.imagem > p {
+  background-color: rgba(138, 133, 133, 0.507);
+  width: 400px;
+  padding: 20px;
 }
