@@ -64,6 +64,7 @@ section.imagem {
 }
 section.imagem > p {
   background-color: rgba(138, 133, 133, 0.507);
+  border-radius: 3%;
   width: 400px;
   padding: 20px;
   margin-left: -50px;
