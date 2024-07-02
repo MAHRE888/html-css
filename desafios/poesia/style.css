@@ -5,6 +5,7 @@
 
 * {
   margin: 0px;
+  padding: 0px;
 }
 body {
   font-family: "Paytone One";
@@ -64,21 +65,22 @@ section.imagem {
 }
 section.imagem > p {
   background-color: rgba(138, 133, 133, 0.507);
+  display: inline-block;
   border-radius: 3%;
   width: 400px;
-  padding: 20px;
-  margin-left: -50px;
+  padding: 10px;
+  margin-left: -10px;
 }
 section > p {
   font-family: "Sriracha";
 }
 section#img01 {
   background-image: url(imagens/wallpaper001.jpg);
-  padding: 10vh;
+  padding: 2vw;
 }
 section#img02 {
   background-image: url(imagens/wallpaper002.jpg);
   background-position: right center;
-  padding: 15vh;
+  padding: 5vw;
   margin-left: -50px;
 }
