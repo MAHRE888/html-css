@@ -36,7 +36,7 @@ h1 {
   font-variant: small-caps;
   font-family: "Paytone One", sans-serif;
   font-weight: none;
-  font-size: 10vh;
+  font-size: 9vw;
   text-shadow: 1px 1px 1px black;
 }
 h2 {
@@ -66,10 +66,8 @@ section.imagem {
 section.imagem > p {
   background-color: rgba(138, 133, 133, 0.507);
   display: inline-block;
+  padding: 5px;
   border-radius: 3%;
-  width: 400px;
-  padding: 10px;
-  margin-left: -10px;
 }
 section > p {
   font-family: "Sriracha";
@@ -82,5 +80,5 @@ section#img02 {
   background-image: url(imagens/wallpaper002.jpg);
   background-position: right center;
   padding: 5vw;
-  margin-left: -50px;
+  margin-left: -3.1vw;
 }
