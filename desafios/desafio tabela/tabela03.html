@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela 03</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      font-variant: small-caps;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20%;
+    }
+
+    td,
+    th {
+      border: 1px solid black;
+      padding: 7px;
+    }
+
+    .grey {
+      background-color: grey;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr class="grey">
+        <h1>Notas</h1>
+        <th>Área</th>
+        <th scope="colgroup">Disciplina</th>
+        <th colspan="2.1" scope="colgroup">Notas</th>
+        <th scope="col">Média</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th rowspan="4" scope="rowgroup">Exatas</th>
+        <td>Matématica</td>
+        <th>Nota 1</th>
+        <th>Nota 2</th>
+        <td>0.0</td>
+
+      </tr>
+      <tr>
+        <td>Fisica</td>
+        <td>0.0</td>
+        <td>0.10</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td>Química</td>
+        <td>0.0</td>
+        <td>10</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td>Biologia</td>
+        <td>0.0</td>
+        <td>10</td>
+        <td>0.0</td>
+      </tr>
+      <tr class="grey">
+        <th colspan="4" scope="row">Média de Exatas</th>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <th rowspan="2" scope="rowgroup">Humanas</th>
+        <td>História</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td>Geografia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr class="grey">
+        <th colspan="4" scope="row">Média de Humanas</th>
+        <td>0.0</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
