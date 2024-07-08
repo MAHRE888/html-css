@@ -11,8 +11,15 @@
     }
 
     table {
+      position: relative;
       border-collapse: collapse;
       text-align: center;
+    }
+
+    thead>tr>th {
+      position: sticky;
+      top: -1px;
+      background-color: grey;
     }
 
     caption {
@@ -20,6 +27,10 @@
       font-weight: bold;
       padding: 10px;
       background-color: rgba(127, 255, 212, 0.61);
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: rgb(43, 168, 226);
     }
 
     tbody td {
