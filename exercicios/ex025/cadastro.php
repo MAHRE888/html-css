@@ -1,2 +1,2 @@
-<p>Seus dados foram enviados!</p>
-<p>Aprenda PHP para saber o que fazer com eles</p>
+Seus dados foram enviados!
+Aprenda PHP para saber o que fazer com os dados.
