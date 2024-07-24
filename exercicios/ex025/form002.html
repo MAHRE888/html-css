@@ -9,18 +9,22 @@
 
 <body>
   <h1>Teste de Formulário</h1>
-  <form action="cadastro.php" method="get">
+  <form action="cadastro.php" method="post" autocomplete="on">
 
     <p>
       <label for="iusu">Usuário: </label>
-      <input type="text" name="usu" id="iusu">
+      <input type="text" name="usu" id="iusu" minlength="5" maxlength="15" required size="12" placeholder="Digite seu usuario" autocomplete="username">
     </p>
     <p>
-      <label for="senha">Senha: </label>
-      <input type="password" name="senha" id="isenha">
+      <label for="isenha">Senha: </label>
+      <input type="password" name="senha" id="isenha" minlength="8" required size="12" placeholder="Digite sua senha" autocomplete="">
     </p>
-    <input type="submit" value="Enviar">
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </p>
   </form>
+
 </body>
 
 </html>
