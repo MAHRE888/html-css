@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /*Esse e em pe (portrait)*/
+
+body {
+  background-image: url(../imagens/cev-portrait.jpg);
+  background-position: right bottom;
+}

@@ -1,3 +1,24 @@
 @charset "UTF-8";
 
 /*Esse e para todas as telas sem adc*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+html,
+body {
+  background-color: rgb(34, 68, 179);
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 1px rgb(42, 84, 189);
+  padding: 10px;
+}
