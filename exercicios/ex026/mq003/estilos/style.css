@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*CONFIGURACOES GERAIS*/
+
+@media all {
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  html,
+  body {
+    background-color: rgb(34, 68, 179);
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    color: white;
+    text-shadow: 2px 2px 1px rgb(42, 84, 189);
+    padding: 10px;
+  }
+}
+
+/*CONFIGURACOES EM PE*/
+
+@media screen and (orientation: portrait) {
+  body {
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: right bottom;
+  }
+}
+
+/*CONFIGURACOES DEITADO*/
+
+@media screen and (orientation: landscape) {
+  body {
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: center bottom;
+  }
+}
