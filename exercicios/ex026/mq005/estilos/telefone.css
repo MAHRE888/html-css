@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/*TELEFONE CONFIG*/
+
+@media screen and (orientation: portrait) {
+  * {
+    font-size: 1.1em;
+    box-sizing: border-box;
+  }
+}
