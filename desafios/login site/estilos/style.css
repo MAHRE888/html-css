@@ -29,8 +29,15 @@ form {
   padding: 4px;
   border-radius: 7px;
   margin-top: 10px;
+  background-color: rgb(6, 245, 233);
 }
 
 #enviar:hover {
   background-color: rgb(224, 221, 37);
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.671);
+
+  border-radius: 10px 10px;
 }
